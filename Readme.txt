@@ -26,10 +26,10 @@ Commands executed					What the command does?
 * git merge						Directly insert modifications made to the feature / courses-page branch within the master branch.
 
 Comment one:
-About pull request - Após o procedimento de "pull request", o github irá detectar um novo branch e irá lhe perguntar se voce deseja abrir uma solicitação de novo codigo dentro do "repositorio master", após aceitar será possível a visualização de todo o codigo que foi alterado e você poderá clicar em "criar a pull request".
+About pull request - After the "pull request" procedure, github will detect a new branch and ask you if you want to open a new code request within the "master repository", after accepting it will be possible to view the entire code that has been changed and you can click on "create a pull request".
 
 Comment two:
-About pull request - Após criar a pull request, será possível que outros desenvolvedores revisem o seu código, você tambem terá a opção de escolher alguem para esta tarefa, após o seu codigo ser revisado ele deve ser aprovado e após isso você ou seu revisador poderá dar um "merge" que serve para juntar o codigo do branch "feature/courses-page" com o codigo do "branch master".
+About pull request - After creating the pull request, it will be possible for other developers to review your code, you will also have the option to choose someone for this task, after your code is reviewed it must be approved and after that you or your reviewer can give a "merge" to join the branch code "feature / courses-page" with the branch master code.
 
 Questions
 1 - When to create a new commit?
