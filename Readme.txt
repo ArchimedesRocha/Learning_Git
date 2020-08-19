@@ -1,3 +1,5 @@
+O projeto Learning_Git, é um aprendizado como o proprio nome já diz, nele desenvolvemos uma aplicação simples apenas para treinar comandos git.
+
 Obs.: Os tipos de commit serão descritos abaixo
 
 chore   - Inserção de codigo em algum ponto da aplicação, que não é feature e nem fix.
