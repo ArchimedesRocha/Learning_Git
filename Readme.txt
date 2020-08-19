@@ -48,6 +48,9 @@ We view the remote repository, which in our case we define as "origin"
 * git push origin feature/courses-page			
 This procedure is called a "pull request" which will insert our new feature/courses-page into our master repository, through a commit.
 
+* git pull
+Download file updates for the current branch, after this you will be able to merge.
+
 * git merge						
 Directly insert modifications made to the feature / courses-page branch within the master branch.
 
