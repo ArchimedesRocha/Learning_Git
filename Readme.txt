@@ -10,20 +10,46 @@ Tools used
 * Node.js
 * Git
 
-Commands executed					What the command does?
-* git add .						Adds all modified files.
-* git add "NAME-THE-ARCHIVE"				Adds a single file.
-* git status						Shows the status of files added before committing.
-* git commit -m "COMMENT"				Save files to be sent to the remote directory | "-m" allows you to add a comment.
-* git remote add origin NAME-REMONE-REPOSITORY		Add the remote repository to send our files in the future | "origin" can be changed to a name of your choice.
-* git remote remove origin URL-REPOSITORY		Removes the remote repository.
-* git push -u origin NOME-DO-BRANCH			Send files that have been committed to the remote repository within the "brach" you entered | "-u" is to inform that the brach will be standard, so after this command the next "push" you will only need to inform "git push" and not "git push -u origin NAME-DO-BRANCH".
-* git clone URL-REPOSITORIO-REMOTO			Clone a remote repository
-* git log						Show the log
-* git checkout -b feature/courses-page			Create a new branch via "-b" and "checkout" enters this newly created branch, "checkout" is used to move between branches
-* git remote -v						We view the remote repository, which in our case we define as "origin"
-* git push origin feature/courses-page			This procedure is called a "pull request" which will insert our new feature/courses-page into our master repository, through a commit.
-* git merge						Directly insert modifications made to the feature / courses-page branch within the master branch.
+Commands executed
+
+* git add .						
+Adds all modified files.
+
+* git add "NAME-THE-ARCHIVE"		
+Adds a single file.
+
+* git status						
+Shows the status of files added before committing.
+
+* git commit -m "COMMENT"				
+Save files to be sent to the remote directory | "-m" allows you to add a comment.
+
+* git remote add origin NAME-REMONE-REPOSITORY		
+Add the remote repository to send our files in the future | "origin" can be changed to a name of your choice.
+
+* git remote remove origin URL-REPOSITORY		
+Removes the remote repository.
+
+* git push -u origin NOME-DO-BRANCH			
+Send files that have been committed to the remote repository within the "brach" you entered | "-u" is to inform that the brach will be standard, so after this command the next "push" you will only need to inform "git push" and not "git push -u origin NAME-DO-BRANCH".
+
+* git clone URL-REPOSITORIO-REMOTO			
+Clone a remote repository
+
+* git log						
+Show the log
+
+* git checkout -b feature/courses-page
+Create a new branch via "-b" and "checkout" enters this newly created branch, "checkout" is used to move between branches.
+
+* git remote -v						
+We view the remote repository, which in our case we define as "origin"
+
+* git push origin feature/courses-page			
+This procedure is called a "pull request" which will insert our new feature/courses-page into our master repository, through a commit.
+
+* git merge						
+Directly insert modifications made to the feature / courses-page branch within the master branch.
 
 Comment one:
 About pull request - After the "pull request" procedure, github will detect a new branch and ask you if you want to open a new code request within the "master repository", after accepting it will be possible to view the entire code that has been changed and you can click on "create a pull request".
