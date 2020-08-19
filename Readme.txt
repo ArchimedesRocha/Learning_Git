@@ -1,17 +1,25 @@
-About Learning_Git, a learning about git commands.
+-------------##-------------
+About Learning_Git
+-------------##-------------
+The goal is to learn about git commands and put them into practice, after all I'm starting =)
 
+-------------##-------------
 Types of commits applied
+-------------##-------------
 *chore   - Code insertion at some point in the application, which is neither a feature nor a fix.
 *fix     - Applied when there is bug resolution
 *feature - Addition of some functionality
 
+-------------##-------------
 Tools used
+-------------##-------------
 * Yarn
 * Node.js
 * Git
 
+-------------##-------------
 Commands executed
-
+-------------##-------------
 * git add .						
 Adds all modified files.
 
@@ -24,7 +32,10 @@ Shows the status of files added before committing.
 * git commit -m "COMMENT"				
 Save files to be sent to the remote directory | "-m" allows you to add a comment.
 
-* git remote add origin NAME-REMONE-REPOSITORY		
+* git rebase
+There are many variations for this command, where it is possible to go back to a commit, after going back, go to another commit, and edit commits, among other things.
+
+*git remote add origin NAME-REMONE-REPOSITORY		
 Add the remote repository to send our files in the future | "origin" can be changed to a name of your choice.
 
 * git remote remove origin URL-REPOSITORY		
@@ -60,7 +71,9 @@ About pull request - After the "pull request" procedure, github will detect a ne
 Comment two:
 About pull request - After creating the pull request, it will be possible for other developers to review your code, you will also have the option to choose someone for this task, after your code is reviewed it must be approved and after that you or your reviewer can give a "merge" to join the branch code "feature / courses-page" with the branch master code.
 
+-------------##-------------
 Questions
+-------------##-------------
 1 - When to create a new commit?
 Answer - Usually when we finish something that will positively impact the application, regardless of whether the code part is large or small, what matters is the positive impact.
 
