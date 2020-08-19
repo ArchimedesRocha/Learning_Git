@@ -66,7 +66,3 @@ Answer - When I need to work on a new feature independent of my application that
 
 3 - Can we delete the branches after applying the changes to the master?
 Answer - Yes, it is a good practice that after we implement it in the master, the branches referring to this feature are deleted.
-
-Comments
-I didn't make the pull request because there was no other dev involved to be able to approve the branch, so I did a merge directly.
-It is not advisable to do a merge directly because in addition to not undergoing review, you end up adding all the new branch commits within the master branch, it is not a good practice.
