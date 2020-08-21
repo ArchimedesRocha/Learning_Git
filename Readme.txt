@@ -32,6 +32,9 @@ Shows the status of files added before committing.
 * git commit -m "COMMENT"				
 Save files to be sent to the remote directory | "-m" allows you to add a comment.
 
+* git pull
+Get any changes made to the remote repository and download them to the local repository
+
 * git rebase
 There are many variations for this command, where it is possible to go back to a commit, after going back, go to another commit, and edit commits, among other things.
 
