@@ -101,7 +101,7 @@
 ###### About pull request - After creating the pull request, it will be possible for other developers to review your code, you will also have the option to choose someone for this task, after your code is reviewed it must be approved and after that you or your reviewer can give a "merge" to join the branch code "feature / courses-page" with the branch master code.
 
 
-#### :pushpin: Questions
+### :pushpin: Questions
 
 * When to create a new commit?
 ###### Usually when we finish something that will positively impact the application, regardless of whether the code part is large or small, what matters is the positive impact.
