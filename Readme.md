@@ -104,10 +104,10 @@
 #### :pushpin: Questions
 
 * When to create a new commit?
-###### Answer - Usually when we finish something that will positively impact the application, regardless of whether the code part is large or small, what matters is the positive impact.
+###### Usually when we finish something that will positively impact the application, regardless of whether the code part is large or small, what matters is the positive impact.
 
 * When to create a new branch?
-###### Answer - When I need to work on a new feature independent of my application that is in production, it is not recommended to work on the master branch.
+###### When I need to work on a new feature independent of my application that is in production, it is not recommended to work on the master branch.
 
 * Can we delete the branches after applying the changes to the master?
-###### Answer - Yes, it is a good practice that after we implement it in the master, the branches referring to this feature are deleted.
+###### Yes, it is a good practice that after we implement it in the master, the branches referring to this feature are deleted.
