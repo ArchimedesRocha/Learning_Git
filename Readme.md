@@ -1,30 +1,57 @@
--------------##-------------
-About Learning_Git
--------------##-------------
-The goal is to learn about git commands and put them into practice, after all I'm starting =)
 
--------------##-------------
-Types of commits applied
--------------##-------------
+#### About Learning_Git
+The goal is to learn about git commands and put them into practice, after all i'm starting =)
+
+
+#### Types of commits applied
 *chore   - Code insertion at some point in the application, which is neither a feature nor a fix.
 *fix     - Applied when there is bug resolution
 *feature - Addition of some functionality
 
--------------##-------------
-Tools used
--------------##-------------
+#### Tools used
 * Yarn
 * Node.js
 * Git
 
--------------##-------------
-Commands executed
--------------##-------------
+#### Commands executed
 * git add .						
-Adds all modified files.
+Adds all modified files
 
 * git add "NAME-THE-ARCHIVE"		
-Adds a single file.
+Adds a single file
+
+* git config --global user.name "YOUR-NAME"
+Here you inform your name
+
+* git config --global user.email "YOUR-E-MAIL"
+Here you inform your e-mail
+
+* git log
+To check all commit's
+
+* git log --author = "AUTHOR-NAME"
+To check a user's commit's
+
+* git shortlog
+Show all commits in alphabetic order
+
+* git shortlog -sn "LOG-NAME"
+Show commit by name
+
+* git diff
+Shows all changes made to the project
+
+* git reset --soft
+Undo a commit and the committed files are about to commit again
+
+* git reset --mixed
+Undoes a commit and also adding the files to be committed
+
+* git reset --hard
+Delete the commit
+
+* git revert
+Revert a ultima ação realizada no commit
 
 * git status						
 Shows the status of files added before committing.
@@ -68,20 +95,20 @@ Download file updates for the current branch, after this you will be able to mer
 * git merge						
 Directly insert modifications made to the feature / courses-page branch within the master branch.
 
-Comment one:
+* Comment one:
 About pull request - After the "pull request" procedure, github will detect a new branch and ask you if you want to open a new code request within the "master repository", after accepting it will be possible to view the entire code that has been changed and you can click on "create a pull request".
 
-Comment two:
+* Comment two:
 About pull request - After creating the pull request, it will be possible for other developers to review your code, you will also have the option to choose someone for this task, after your code is reviewed it must be approved and after that you or your reviewer can give a "merge" to join the branch code "feature / courses-page" with the branch master code.
 
--------------##-------------
-Questions
--------------##-------------
-1 - When to create a new commit?
+
+#### Questions
+
+* When to create a new commit?
 Answer - Usually when we finish something that will positively impact the application, regardless of whether the code part is large or small, what matters is the positive impact.
 
-2 - When to create a new branch?
+* When to create a new branch?
 Answer - When I need to work on a new feature independent of my application that is in production, it is not recommended to work on the master branch.
 
-3 - Can we delete the branches after applying the changes to the master?
+* Can we delete the branches after applying the changes to the master?
 Answer - Yes, it is a good practice that after we implement it in the master, the branches referring to this feature are deleted.
